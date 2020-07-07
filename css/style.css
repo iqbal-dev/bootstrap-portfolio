@@ -1,1 +1,76 @@
-﻿
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+.container{
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+header ul li{
+    padding-left: 30px;
+}
+header ul li a{
+    font-size: 20px;
+    font-weight: 600;
+}
+header span{
+    color: #ff9c35;
+}
+.button{
+    
+padding: 10px 20px;
+border: none;
+border-radius: 10px;
+background-color: #FF3485;
+margin-top: 20px;
+}
+.button a{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.biography{
+    background-image: url(../images/biography-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.latest-work{
+    height: 600px;
+    background-image: url(../images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+footer{
+    height: 800px;
+    margin-bottom: 0;
+    background-image: url(../images/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.message{
+    height: 150px;
+    width: 500px;
+    background-color: #FF3485;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.copyright{
+    height: 100px;
+    margin-top: 50px;
+}
+footer h1{
+
+margin: 100px 0;
+}
+small{
+    margin-bottom: 50px;
+    display: block;
+}
